@@ -18,7 +18,7 @@
         "php": "^7.0",
         "illuminate/support" : "^5",
         "maatwebsite/excel": "^2.1",
-        "nesbot/carbon": "^1",
+        "nesbot/carbon": "^1"
     },
     "autoload": {
         "psr-4": {
