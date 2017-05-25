@@ -1,0 +1,31 @@
+{
+    "name": "comeul/centova-digester",
+    "description": "Digest a stats file from Centova cast",
+    "keywords": [
+        "comeul",
+    ],
+    "homepage": "https://github.com/comeul/CentovaDigester",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jean-Philippe Murray",
+            "email": "jeanphilippe@pasunecompagnie.com",
+            "homepage": "https://pasunecomapgnie.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/support" : "^5",
+        "maatwebsite/excel": "^2.1",
+        "nesbot/carbon": "^1",
+    },
+    "autoload": {
+        "psr-4": {
+            "Comeul\\CentovaDigester\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+  }
+}
