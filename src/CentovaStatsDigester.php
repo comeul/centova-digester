@@ -2,6 +2,7 @@
 
 namespace Comeul\CentovaDigester;
 
+use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Facades\Excel;
 
