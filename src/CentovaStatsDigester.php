@@ -3,6 +3,7 @@
 namespace Comeul\CentovaDigester;
 
 use Illuminate\Support\Collection;
+use Maatwebsite\Excel\Facades\Excel;
 
 class CentovaStatsDigester
 {
