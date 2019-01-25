@@ -1,4 +1,6 @@
-# This will digest an historical listener file from Centova Cast
+# Centova Digester
+
+This will digest an historical listener file from Centova Cast
 
 ## Installation
 
