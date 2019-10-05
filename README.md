@@ -1,10 +1,16 @@
 # Centova Digester
 
-This will digest an historical listener file from Centova Cast
+This is an internally used tool used to digest a Centova listener file.
+
+It can by anybody who has access to a Centova Cast listener file, exported from their admin page. This will digest the data and return an excel file that's easier to read for non tech people.
+
+This package was always though to be ran in a Laravel instance but it would probably still run in a vanilla PHP environment, although we give no guarantee for that.
+
+This package is not sexy, there is no test, but it works.
 
 ## Installation
 
-Can't be installed via composer. You should add this repository in your composer file:
+Since this is not really ready for wide distribution, the package isn't distributed via Composer, so you will have to add this repo in your `composer.json` file.
 
 ```json
 "repositories": [
@@ -15,17 +21,13 @@ Can't be installed via composer. You should add this repository in your composer
     ],
 ```
 
-And add the package as a dependency in the `composer.json` file like so:
+Then you should add the package as a dependency in the `composer.json` file like so:
 
 ```json
 "comeul/centova-digester": "dev-master@dev"
 ```
 
-The package might run without Laravel, but it's not sure, as it's intended to be used within a Laravel Install.
-
-Note that you shuld also install the [Laravel-Excel](https://github.com/Maatwebsite/Laravel-Excel) package to your Laravel installation for it to work fine.
-
-This package is not sexy, there is no test, this was a quick fix to an internal demand.
+You will also have to install the  [Laravel-Excel](https://github.com/Maatwebsite/Laravel-Excel) for this package to work properly.
 
 ## Usage
 
